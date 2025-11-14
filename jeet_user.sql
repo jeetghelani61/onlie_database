@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 14, 2025 at 09:01 AM
+-- Generation Time: Nov 14, 2025 at 10:41 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -24,20 +24,20 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `jeet`
+-- Table structure for table `jeet_user`
 --
 
-CREATE TABLE `jeet` (
+CREATE TABLE `jeet_user` (
   `id` int(11) NOT NULL,
   `name` text NOT NULL,
   `surname` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `jeet`
+-- Dumping data for table `jeet_user`
 --
 
-INSERT INTO `jeet` (`id`, `name`, `surname`) VALUES
+INSERT INTO `jeet_user` (`id`, `name`, `surname`) VALUES
 (0, 'jeet', 'xyz');
 
 --
@@ -45,9 +45,9 @@ INSERT INTO `jeet` (`id`, `name`, `surname`) VALUES
 --
 
 --
--- Indexes for table `jeet`
+-- Indexes for table `jeet_user`
 --
-ALTER TABLE `jeet`
+ALTER TABLE `jeet_user`
   ADD PRIMARY KEY (`id`);
 COMMIT;
 
